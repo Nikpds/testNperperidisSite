@@ -3,7 +3,7 @@ import { HttpClient } from "@angular/common/http";
 
 @Injectable()
 export class NewsletterService {
-  readonly server = 'https://nperperidis.site/CrossXFit.Api/api/'
+  readonly server = 'https://www.cross-arm.gr/api/'
 
   constructor(private http: HttpClient) {
   }

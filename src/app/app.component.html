@@ -1,4 +1,18 @@
-<h1>Version V1 is runnning ...</h1>  
+<h1>Version V1 is runnning ...</h1>
 <button class="button button-primary" (click)="subscribeToNotifications()">
   Subscribe
 </button>
+
+<div class="field has-addons">
+  <div class="control">
+    <input
+      [(ngModel)]="email"
+      class="input"
+      type="text"
+      placeholder="Find a repository"
+    />
+  </div>
+  <div class="control">
+    <a class="button is-info" (click)="checkEmail()"> Check Email </a>
+  </div>
+</div>

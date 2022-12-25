@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration production --base-href /web/",
+    "build": "ng build --configuration development --base-href /",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
@@ -19,6 +19,7 @@
     "@angular/platform-browser-dynamic": "^15.0.0-next.0",
     "@angular/router": "^15.0.0-next.0",
     "@angular/service-worker": "^15.0.0-next.0",
+    "bulma": "^0.9.4",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
